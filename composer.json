@@ -1,6 +1,7 @@
 {
     "name": "alexlg89/laravel-exception-slacker",
     "description": "Sends Laravel Exceptions to your Slack",
+    "homepage": "https://github.com/Alexlg89/laravel-exception-slacker",
     "license": "MIT",
     "authors": [
         {
@@ -8,6 +9,9 @@
             "email": "aelert89@gmail.com"
         }
     ],
+    "require": {
+        "php" : ">=5.6"
+    },
     "autoload": {
         "psr-4": {
             "Alexlg89\\LaravelExceptionSlacker\\": "src/"
