@@ -1,0 +1,23 @@
+{
+    "name": "alexlg89/laravel-exception-slacker",
+    "description": "Sends Laravel Exceptions to your Slack",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexander Elert",
+            "email": "aelert89@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Alexlg89\\LaravelExceptionSlacker\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alexlg89\\LaravelExceptionSlacker\\LaravelExceptionSlackerServiceProvider"
+            ]
+        }
+    }
+}
